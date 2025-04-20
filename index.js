@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://zafi:admin@cluster0.jhalxln.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    ""
   )
   .then(() => {
     console.log("Connected to DB!");
